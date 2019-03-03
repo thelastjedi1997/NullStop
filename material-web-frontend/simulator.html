@@ -1,0 +1,176 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Simulator</title>
+
+      <style type="text/css">
+        body
+      {
+        background-color: #eee;
+      }
+
+      .btn-large
+      {
+          width: 350px;
+          height: 60px;
+          font-size: 15px;
+      }
+        .btn-small
+      {
+          margin-left: 40%;
+          margin-top: 5%;
+          margin-bottom: 5%;
+      }
+
+      #logout
+      {
+        margin-left: 95%;
+      }
+
+       .nav-wrapper
+      {
+        background-color: #9fa8da; 
+      }
+      </style>
+    </head>
+
+    <body>
+    <nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="profile.html">My Profile</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+    <a class="waves-effect waves-light btn-small right-align" id="logout">Logout</a>
+    <br>
+    <br>
+    <h3 align="center">Virtual Simulator</h3>
+    <br><br>
+<!--     # 1. buy  2. cancel  3. return  4. pay all emi's on time (suboptions for buy (1)/ return (2)/ cancel (3))  5. miss some emi's (suboptions for buy (1)/ return (2)/ cancel (3))  6. miss many emi's (suboptions for buy (1)/ return (2)/ cancel (3))  7. miss all emi's (suboptions for buy (1)/ return (2)/ cancel (3)) -->
+    <h5>Please pick any one action and then log out.</h5>
+    <br>
+    <br>
+    <table>
+    <tbody>
+    <tr>
+      <td>
+        <a class="waves-effect waves-light btn-large" id="opt1">Buy and Keep</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt2">Cancel</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and then cancel the order.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt3">Return</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and then return it later.</p>
+      </td>
+    </tr>
+    </tbody>
+    </table>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <a class="waves-effect waves-light btn-small" id="donebutton">DONE!</a>
+  <div>
+  <br>
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+            <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="cookie.js"></script>
+  <script type="text/javascript" src="simulator.js"></script>
+    </body>
+  </html>
+
+      <!-- <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt4">Pay EMIs on Time - Buy and Keep</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt5">Pay EMIs on Time - Cancel</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt6">Pay EMIs on Time - Return</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt7">Miss some EMIs - Buy and Keep</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt8">Miss some EMIs - Cancel</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt9">Miss some EMIs - Return</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt10">Miss all EMIs - Buy and Keep</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr><tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt11">Miss all EMIs - Cancel</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td>
+    </tr><tr>
+      <td>
+      <a class="waves-effect waves-light btn-large" id="opt12">Miss all EMIs - Return</a>
+      </td>
+      <td>
+        <p>This means that you Buy the item and keep it.</p>
+      </td> -->
+    <!-- </tr> -->
+        
